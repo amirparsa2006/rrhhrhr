@@ -1,0 +1,34 @@
+@use "all";
+@use "ali";
+//////////////////////////////
+
+.human-bg{
+    background: url("../img/wallpapersden.com_dark-minimal-mountains-at-night_3840x2160.jpg");
+    background-size: cover;
+    min-height: 45.60rem;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p{
+        color: white;     
+    }
+       
+    
+
+}
+
+header{
+    & ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    & a{
+        padding: 1rem;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}

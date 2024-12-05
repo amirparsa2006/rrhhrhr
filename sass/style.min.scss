@@ -1,0 +1,84 @@
+@use "all";
+@use "ali";
+// @import url(_all.scss); pure Css
+.main-bg{
+    background: url("../img/5.jpg");
+    background-repeat: no-repeat;
+    background-position:top right;
+ 
+    // background-size:100% ;
+}
+header{
+    & ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    & a{
+        padding: 1rem;
+        text-decoration: none;
+        color: black;
+    }
+}
+.human-bg{
+    background: url("../img/R\ \(2\).jfif");
+    background-size: cover;
+    min-height: 40rem;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a{
+        color: white;
+    }
+
+}
+.social-icon{
+    & img{
+        width: 25px;
+    }
+}
+#power{
+    .text-black{
+        color: black;
+    }
+}
+.divman{
+    background: url(../img/دایره.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
+    background-size: cover;
+}
+.b2{
+    background: url(../images/back2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-2xl{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pr-5{
+    padding-left: 1rem;
+   
+}
+.h-10{
+    height: 3rem;
+    width: 3rem;
+}
+.text-decoration{
+    text-decoration: none;
+}
+
+.pt-1{
+    padding-top: 1rem;
+  align-items: center;
+    padding-right: 1rem;
+}
+.h-1{
+    height: 10rem;
+}

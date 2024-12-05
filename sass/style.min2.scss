@@ -1,0 +1,53 @@
+@use "all";
+@use "ali";
+//////////////////////////////
+///
+/// 
+/// 
+header{
+    & ul{
+       
+        list-style: none;
+    }
+    & a{
+        padding: 1rem;
+        text-decoration: none;
+        color: black;
+    }
+}
+.pt-1{
+    padding-top: 1rem;
+}
+.dokme{
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: white;
+    height: 2rem;
+    padding-top: 0.25rem;
+    text-decoration: none;
+    ;
+   
+}
+.section2{
+    background: url(../img/6.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    padding-bottom: 14rem;
+
+
+
+}
+h1{
+    font-size: xx-large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.h-10{
+    height: 3rem;
+    width: 3rem;}
+.border{
+    border: solid rgb(181, 127, 65) 2px;
+}

@@ -1,0 +1,36 @@
+@use "all";
+@use "ali";
+.bg{
+    background: url(../img/دایره.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+header{
+    & ul{
+       
+        list-style: none;
+    }
+    & a{
+        padding: 1rem;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        & :last-child{
+            color: wheat;
+        }
+    }
+}
+.btli{
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+.pb{
+    padding-bottom: 20rem;
+}
+
+div{
+    border: solid 7px rgb(89, 169, 196);
+   
+    margin-left: 10rem;
+}
